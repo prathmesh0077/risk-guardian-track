@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        risk: {
+          high: "hsl(var(--risk-high))",
+          "high-foreground": "hsl(var(--risk-high-foreground))",
+          medium: "hsl(var(--risk-medium))",
+          "medium-foreground": "hsl(var(--risk-medium-foreground))",
+          low: "hsl(var(--risk-low))",
+          "low-foreground": "hsl(var(--risk-low-foreground))",
+        },
+        call: {
+          DEFAULT: "hsl(var(--call))",
+          foreground: "hsl(var(--call-foreground))",
+        },
+        message: {
+          DEFAULT: "hsl(var(--message))",
+          foreground: "hsl(var(--message-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

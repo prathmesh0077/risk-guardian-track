@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Student Risk Tracking System Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 99%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,7 +15,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 215 100% 35%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -35,6 +33,23 @@ All colors MUST be HSL.
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
+
+    /* Risk Level Colors */
+    --risk-high: 4 79% 57%;        /* #E53935 */
+    --risk-high-foreground: 0 0% 100%;
+    --risk-medium: 45 96% 50%;     /* #FFB300 */  
+    --risk-medium-foreground: 222.2 84% 4.9%;
+    --risk-low: 122 39% 49%;       /* #43A047 */
+    --risk-low-foreground: 0 0% 100%;
+
+    /* Action Colors */
+    --call: 122 39% 49%;
+    --call-foreground: 0 0% 100%;
+    --message: 215 100% 35%;
+    --message-foreground: 0 0% 100%;
+
+    /* Touch Target Minimum */
+    --touch-target: 48px;
 
     --radius: 0.5rem;
 
